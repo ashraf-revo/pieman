@@ -13,6 +13,10 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
+"""Toolset module intended for fetching qemu-user-static 3.1 from Ubuntu 19.04
+"Disco Dingo".
+"""
+
 FLAVOURS_ENABLED = True
 
 REQUIRED_FIELDS = ('arch', 'codename', 'dst', )
